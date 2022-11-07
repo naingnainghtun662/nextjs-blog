@@ -14,7 +14,7 @@ export default function Home({ posts }) {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <p className="text-3xl text-blue-500">{selfIntroductino}</p>
+        <p className="text-3xl text-blue-500 underline">{selfIntroductino}</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
